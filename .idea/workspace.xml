@@ -1,7 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="6a3f37c5-b0f0-4957-a169-8c4a82b65381" name="Default" comment="" />
+    <list default="true" id="6a3f37c5-b0f0-4957-a169-8c4a82b65381" name="Default" comment="">
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/.idea/vcs.xml" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/InputReader.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/SquareMatrix.java" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/InputReaderSpec.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/SquareMatrixSpec.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+    </list>
     <ignored path="hankerRank.iws" />
     <ignored path=".idea/workspace.xml" />
     <ignored path="$PROJECT_DIR$/out/" />
@@ -23,87 +30,53 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="PStringSpec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/stringcons/PStringSpec.scala">
+      <file leaf-file-name="SquareMatrixSpec.scala" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/SquareMatrixSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="282">
-              <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+            <state relative-caret-position="180">
+              <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
               <folding>
-                <element signature="e#32#57#0" expanded="true" />
+                <element signature="e#29#45#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="SquareMatrix.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/SquareMatrix.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="477">
+              <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+              <folding>
+                <element signature="imports" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file leaf-file-name="InputReaderSpec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/InputReaderSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="285">
-              <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-              <folding>
-                <element signature="e#31#66#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestDataTen.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/TestDataTen.scala">
+        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/InputReaderSpec.scala">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="90">
               <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="TestCaseSpec.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/TestCaseSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="267">
-              <caret line="19" column="5" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SolutionSpec.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/SolutionSpec.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="225">
-              <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
               <folding>
-                <element signature="e#30#65#0" expanded="true" />
+                <element signature="e#29#64#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="TestCase.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/angryprof/TestCase.java">
+      <file leaf-file-name="InputReader.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/InputReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="117">
-              <caret line="33" column="30" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+            <state relative-caret-position="537">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#639#640#0" expanded="true" />
-                <element signature="e#695#696#0" expanded="true" />
-                <element signature="e#1543#1544#0" expanded="true" />
-                <element signature="e#1622#1623#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Solution.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/angryprof/Solution.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="162">
-              <caret line="17" column="10" selection-start-line="17" selection-start-column="10" selection-end-line="17" selection-end-column="10" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#575#576#0" expanded="true" />
+                <element signature="e#755#756#0" expanded="true" />
+                <element signature="e#788#789#0" expanded="true" />
+                <element signature="e#827#828#0" expanded="true" />
+                <element signature="e#856#857#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -112,33 +85,10 @@
       <file leaf-file-name="InputReader.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/angryprof/InputReader.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="342">
-              <caret line="42" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+            <state relative-caret-position="135">
+              <caret line="9" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
-                <element signature="e#387#388#0" expanded="true" />
-                <element signature="e#423#424#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/stringcons/PString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="17" column="5" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-              <folding>
-                <element signature="e#170#171#0" expanded="true" />
-                <element signature="e#203#204#0" expanded="true" />
-                <element signature="e#244#245#0" expanded="true" />
-                <element signature="e#286#287#0" expanded="true" />
-                <element signature="e#333#334#0" expanded="true" />
-                <element signature="e#414#415#0" expanded="true" />
-                <element signature="e#467#468#0" expanded="true" />
-                <element signature="e#494#495#0" expanded="true" />
-                <element signature="e#531#532#0" expanded="true" />
-                <element signature="e#563#564#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -152,6 +102,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="GradleLocalSettings">
     <option name="externalProjectsViewState">
@@ -191,6 +144,12 @@
         <option value="$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/TestDataTen.scala" />
         <option value="$PROJECT_DIR$/src/main/java/com/tpg/hr/angryprof/Solution.java" />
         <option value="$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/SolutionSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/MatrixSpec.scala" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/SquareMatrixSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/Matrix.java" />
+        <option value="$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/InputReaderSpec.scala" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/InputReader.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/SquareMatrix.java" />
       </list>
     </option>
   </component>
@@ -329,6 +288,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="diagdiff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hankerRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hankerRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="test" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="scala" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="angryprof" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -421,6 +410,36 @@
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
             <PATH_ELEMENT>
+              <option name="myItemId" value="diagdiff" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+          </PATH>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hankerRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hankerRank" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="src" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="main" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="java" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="hr" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
+            </PATH_ELEMENT>
+            <PATH_ELEMENT>
               <option name="myItemId" value="angryprof" />
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode" />
             </PATH_ELEMENT>
@@ -443,42 +462,15 @@
     <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
       <recent name="com.tpg.hr" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.tpg.hr.diagdiff" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/src/test/scala/com.tpg.hr" />
       <recent name="$PROJECT_DIR$/src/test/scala" />
     </key>
   </component>
-  <component name="RunManager" selected="ScalaTest.SolutionSpec">
-    <configuration default="false" name="DivisibleSumPairsSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="hankerRank" />
-      <setting name="path" value="com.tpg.hr.divisiblesumpairs.DivisibleSumPairsSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
-    <configuration default="false" name="PStringSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
-      <module name="hankerRank" />
-      <setting name="path" value="com.tpg.hr.stringcons.PStringSpec" />
-      <setting name="package" value="" />
-      <setting name="vmparams" value="" />
-      <setting name="params" value="" />
-      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
-      <setting name="searchForTest" value="Across module dependencies" />
-      <setting name="testName" value="" />
-      <setting name="testKind" value="Class" />
-      <setting name="showProgressMessages" value="true" />
-      <envs />
-      <method />
-    </configuration>
+  <component name="RunManager" selected="ScalaTest.InputReaderSpec (1)">
     <configuration default="false" name="InputReaderSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="hankerRank" />
@@ -513,6 +505,36 @@
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
       <module name="hankerRank" />
       <setting name="path" value="com.tpg.hr.angryprof.SolutionSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="SquareMatrixSpec" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="hankerRank" />
+      <setting name="path" value="com.tpg.hr.diagdiff.SquareMatrixSpec" />
+      <setting name="package" value="" />
+      <setting name="vmparams" value="" />
+      <setting name="params" value="" />
+      <setting name="workingDirectory" value="file://$PROJECT_DIR$" />
+      <setting name="searchForTest" value="Across module dependencies" />
+      <setting name="testName" value="" />
+      <setting name="testKind" value="Class" />
+      <setting name="showProgressMessages" value="true" />
+      <envs />
+      <method />
+    </configuration>
+    <configuration default="false" name="InputReaderSpec (1)" type="ScalaTestRunConfiguration" factoryName="ScalaTest" temporary="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="hankerRank" />
+      <setting name="path" value="com.tpg.hr.diagdiff.InputReaderSpec" />
       <setting name="package" value="" />
       <setting name="vmparams" value="" />
       <setting name="params" value="" />
@@ -804,19 +826,19 @@
       <method />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="ScalaTest.DivisibleSumPairsSpec" />
-      <item index="1" class="java.lang.String" itemvalue="ScalaTest.PStringSpec" />
-      <item index="2" class="java.lang.String" itemvalue="ScalaTest.InputReaderSpec" />
-      <item index="3" class="java.lang.String" itemvalue="ScalaTest.TestCaseSpec" />
-      <item index="4" class="java.lang.String" itemvalue="ScalaTest.SolutionSpec" />
+      <item index="0" class="java.lang.String" itemvalue="ScalaTest.InputReaderSpec" />
+      <item index="1" class="java.lang.String" itemvalue="ScalaTest.TestCaseSpec" />
+      <item index="2" class="java.lang.String" itemvalue="ScalaTest.SolutionSpec" />
+      <item index="3" class="java.lang.String" itemvalue="ScalaTest.SquareMatrixSpec" />
+      <item index="4" class="java.lang.String" itemvalue="ScalaTest.InputReaderSpec (1)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="ScalaTest.SolutionSpec" />
-        <item index="1" class="java.lang.String" itemvalue="ScalaTest.TestCaseSpec" />
-        <item index="2" class="java.lang.String" itemvalue="ScalaTest.InputReaderSpec" />
-        <item index="3" class="java.lang.String" itemvalue="ScalaTest.PStringSpec" />
-        <item index="4" class="java.lang.String" itemvalue="ScalaTest.DivisibleSumPairsSpec" />
+        <item index="0" class="java.lang.String" itemvalue="ScalaTest.InputReaderSpec (1)" />
+        <item index="1" class="java.lang.String" itemvalue="ScalaTest.SquareMatrixSpec" />
+        <item index="2" class="java.lang.String" itemvalue="ScalaTest.SolutionSpec" />
+        <item index="3" class="java.lang.String" itemvalue="ScalaTest.TestCaseSpec" />
+        <item index="4" class="java.lang.String" itemvalue="ScalaTest.InputReaderSpec" />
       </list>
     </recent_temporary>
   </component>
@@ -855,40 +877,40 @@
     <servers />
   </component>
   <component name="TestHistory">
-    <history-entry file="InputReaderSpec - 2016.08.05 at 16h 23m 14s.xml">
-      <configuration name="InputReaderSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="InputReaderSpec_(1) - 2016.08.07 at 21h 24m 42s.xml">
+      <configuration name="InputReaderSpec (1)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InputReaderSpec - 2016.08.05 at 16h 27m 34s.xml">
-      <configuration name="InputReaderSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="InputReaderSpec_(1) - 2016.08.07 at 21h 24m 54s.xml">
+      <configuration name="InputReaderSpec (1)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="InputReaderSpec - 2016.08.06 at 22h 17m 34s.xml">
-      <configuration name="InputReaderSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="InputReaderSpec - 2016.08.06 at 22h 21m 32s.xml">
-      <configuration name="InputReaderSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SolutionSpec - 2016.08.06 at 23h 47m 11s.xml">
-      <configuration name="SolutionSpec" configurationId="ScalaTestRunConfiguration" />
-    </history-entry>
-    <history-entry file="SolutionSpec - 2016.08.06 at 23h 52m 58s.xml">
-      <configuration name="SolutionSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="InputReaderSpec_(1) - 2016.08.07 at 21h 33m 37s.xml">
+      <configuration name="InputReaderSpec (1)" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
     <history-entry file="SolutionSpec - 2016.08.07 at 00h 07m 09s.xml">
       <configuration name="SolutionSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCaseSpec - 2016.08.05 at 16h 22m 06s.xml">
-      <configuration name="TestCaseSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SquareMatrixSpec - 2016.08.07 at 21h 06m 45s.xml">
+      <configuration name="SquareMatrixSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCaseSpec - 2016.08.06 at 22h 21m 50s.xml">
-      <configuration name="TestCaseSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SquareMatrixSpec - 2016.08.07 at 21h 11m 57s.xml">
+      <configuration name="SquareMatrixSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
-    <history-entry file="TestCaseSpec - 2016.08.06 at 22h 22m 17s.xml">
-      <configuration name="TestCaseSpec" configurationId="ScalaTestRunConfiguration" />
+    <history-entry file="SquareMatrixSpec - 2016.08.07 at 21h 13m 02s.xml">
+      <configuration name="SquareMatrixSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="SquareMatrixSpec - 2016.08.07 at 21h 15m 30s.xml">
+      <configuration name="SquareMatrixSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="SquareMatrixSpec - 2016.08.07 at 21h 17m 17s.xml">
+      <configuration name="SquareMatrixSpec" configurationId="ScalaTestRunConfiguration" />
+    </history-entry>
+    <history-entry file="SquareMatrixSpec - 2016.08.07 at 21h 17m 57s.xml">
+      <configuration name="SquareMatrixSpec" configurationId="ScalaTestRunConfiguration" />
     </history-entry>
   </component>
   <component name="ToolWindowManager">
     <frame x="1" y="23" width="1260" height="691" extended-state="0" />
-    <editor active="false" />
+    <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -899,7 +921,7 @@
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32885906" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -908,7 +930,7 @@
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="true" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39932886" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -922,7 +944,7 @@
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
-      <option name="time" value="18" />
+      <option name="time" value="23" />
     </breakpoint-manager>
     <watches-manager />
   </component>
@@ -1081,16 +1103,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/stringcons/PStringSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="282">
-          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
-          <folding>
-            <element signature="e#32#57#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_60.jdk/Contents/Home/src.zip!/java/io/InputStream.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="124">
@@ -1112,10 +1124,10 @@
         <state relative-caret-position="-506">
           <caret line="5033" column="28" selection-start-line="5033" selection-start-column="28" selection-end-line="5033" selection-end-column="28" />
           <folding>
-            <element signature="e#177013#177014#0" expanded="true" />
-            <element signature="e#177054#177055#0" expanded="true" />
-            <element signature="e#224394#224395#0" expanded="true" />
-            <element signature="e#224447#224448#0" expanded="true" />
+            <element signature="e#177013#177014#0" expanded="false" />
+            <element signature="e#177054#177055#0" expanded="false" />
+            <element signature="e#224394#224395#0" expanded="false" />
+            <element signature="e#224447#224448#0" expanded="false" />
           </folding>
         </state>
       </provider>
@@ -1125,18 +1137,6 @@
         <state relative-caret-position="-225">
           <caret line="10" column="0" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/angryprof/InputReader.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="342">
-          <caret line="42" column="0" selection-start-line="7" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#387#388#0" expanded="true" />
-            <element signature="e#423#424#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1150,16 +1150,6 @@
             <element signature="e#695#696#0" expanded="true" />
             <element signature="e#1543#1544#0" expanded="true" />
             <element signature="e#1622#1623#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/InputReaderSpec.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
-          <folding>
-            <element signature="e#31#66#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1198,6 +1188,80 @@
           <caret line="17" column="6" selection-start-line="17" selection-start-column="6" selection-end-line="17" selection-end-column="6" />
           <folding>
             <element signature="e#30#65#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/angryprof/InputReaderSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="20" column="48" selection-start-line="20" selection-start-column="48" selection-end-line="20" selection-end-column="48" />
+          <folding>
+            <element signature="e#31#66#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/stringcons/PStringSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="282">
+          <caret line="27" column="45" selection-start-line="27" selection-start-column="45" selection-end-line="27" selection-end-column="45" />
+          <folding>
+            <element signature="e#32#57#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/SquareMatrixSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="14" column="23" selection-start-line="14" selection-start-column="23" selection-end-line="14" selection-end-column="23" />
+          <folding>
+            <element signature="e#29#45#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/angryprof/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="0" selection-start-line="8" selection-start-column="0" selection-end-line="9" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/scala/com/tpg/hr/diagdiff/InputReaderSpec.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="90">
+          <caret line="6" column="0" selection-start-line="6" selection-start-column="0" selection-end-line="6" selection-end-column="0" />
+          <folding>
+            <element signature="e#29#64#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/SquareMatrix.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="477">
+          <caret line="63" column="21" selection-start-line="63" selection-start-column="21" selection-end-line="63" selection-end-column="21" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/tpg/hr/diagdiff/InputReader.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="537">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#755#756#0" expanded="true" />
+            <element signature="e#788#789#0" expanded="true" />
+            <element signature="e#827#828#0" expanded="true" />
+            <element signature="e#856#857#0" expanded="true" />
           </folding>
         </state>
       </provider>
