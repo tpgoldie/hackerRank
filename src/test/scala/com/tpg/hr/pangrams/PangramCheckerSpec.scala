@@ -1,4 +1,4 @@
-package com.tpg.hr.pangrams;
+package com.tpg.hr.pangrams
 
 import com.tpg.hr.HackerRankSpec
 
