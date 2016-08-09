@@ -14,7 +14,7 @@ class PStringSpec extends HackerRankSpec {
       )
     }
 
-    scenario("can add a substring") {
+    ignore("can add a substring") {
       val e = new CCharacter('e')
 
       val m = new CCharacter('m')
