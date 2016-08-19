@@ -14,15 +14,16 @@ public class Clouds {
         this.name = name;
     }
 
-    public void start() {
+    public GameState play() {
         Player player = new Player(name, root);
         GameState gameState = CONTINUE;
 
-        while(gameState == CONTINUE) {
+        while (gameState == CONTINUE) {
             gameState = player.jump();
-
-            count++;
+            count = player.getJumps();
         }
+
+        return gameState;
     }
 
     public int getJumps() { return count; }

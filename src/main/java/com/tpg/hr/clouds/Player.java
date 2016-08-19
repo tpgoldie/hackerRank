@@ -3,10 +3,13 @@ package com.tpg.hr.clouds;
 import java.util.Optional;
 
 import static com.tpg.hr.clouds.GameState.CONTINUE;
-import static com.tpg.hr.clouds.GameState.END;
+import static com.tpg.hr.clouds.GameState.LOSE;
+import static com.tpg.hr.clouds.GameState.WIN;
 
 public class Player {
     private final String name;
+
+    private int count = 0;
 
     private Optional<Cloud> cloud;
 
@@ -16,12 +19,28 @@ public class Player {
     }
 
     public GameState jump() {
-        if (this.cloud.map(c -> c.getLeft().isPresent()).get()) {
+        if (hasLeft(this.cloud)) {
             this.cloud = cloud.map(c -> c.getLeft().get());
-            if (this.cloud.map(c -> c instanceof ThunderCloud).get()) { return END; }
+            count++;
+
+            if (this.cloud.map(c -> c instanceof ThunderCloud).get()) { return LOSE; }
             return CONTINUE;
         }
 
-        return END;
+        return WIN;
+    }
+
+    public int getJumps() { return count; }
+
+    private boolean hasLeft(Optional<Cloud> cloud) {
+        if (!cloud.isPresent()) { return false; }
+        if (!cloud.map(c -> c.getLeft().isPresent()).get()) { return false; }
+        return true;
+    }
+
+    private boolean hasRight(Optional<Cloud> cloud) {
+        if (!cloud.isPresent()) { return false; }
+        if (!cloud.map(c -> c.getRight().isPresent()).get()) { return false; }
+        return true;
     }
 }

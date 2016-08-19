@@ -3,7 +3,7 @@ package com.tpg.hr.clouds
 import java.util.Optional
 
 import com.tpg.hr.HackerRankSpec
-import GameState.{CONTINUE, END}
+import GameState.{CONTINUE, LOSE}
 
 class CloudSpec extends HackerRankSpec {
   feature("cloud") {
@@ -25,7 +25,7 @@ class CloudSpec extends HackerRankSpec {
       val player = new Player("1", Optional.of(c0))
       val actual = player.jump
 
-      actual should be(END)
+      actual should be(LOSE)
     }
   }
 }
